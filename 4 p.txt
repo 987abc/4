@@ -1,0 +1,306 @@
+Experiment 1
+
+Aim - Setting up a Basic Home Network using Packet Tracer.
+Step-1: Open Packet Tracer and pick Home Router from Wireless Devices and place it on the workspace.
+ 
+Step-2: Place Smartphone, PC, Laptop from End Devices on Workspace.
+ 
+Step-3: To connect Laptop and PC to Home Router we need to update a pin in the laptop’s and PC’s configuration. To do this click on the laptop and turn of the laptop and find the pin WPC300N and place it in the laptop. Do same for PC.
+ 
+Conclusion:
+Thus, the setting up a Basic Home Network using Packet Tracer is done successfully.
+
+Experiment 2
+Aim - Static Routing Using Two Routers.
+Step-1: Select two PT-Routers from Routers and place it on the workspace. Similarly, select PCs from End devices and PT-Switch from Switches and place them on the workspace.
+ 
+Step-2: Connect Switches to PCs using Copper-Straight through wire (use FastEthernet port for connecting) and connect routers using Serial DCE wire.
+  
+Step-3: Configure Routers and PCs and assign IP address to it.
+•	Configuring Router0
+Click on Router0, go to Config and select FastEthernet0/0 and assign the IPv4 address and Subnet Mask to Router 0 and select ON button.
+IPv4 address – 192.168.2.3
+Subnet Mask-255.255.255.0
+ 
+ 
+Similarly, Go to Serial 2/0 and assign IPv4 address and Subnet Mask to it and select ON button in the same Router.
+IPv4 address – 10.10.0.1 and Subnet Mask – 255.0.0.0
+ 
+ 
+•	Configuring PCs connected to Router 0.
+PC0
+Click on PC0 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address-192.168.2.7
+Default Gateway- 192.168.2.3
+ 
+ 
+PC1
+Click on PC1 and select IP configuration from Desktop and assign the IP address and Default Gateway to it
+IP address – 192.168.2.8
+Default Gateway – 192.168.2.3
+ 
+ 
+•	Configuring Router1
+Click on Router1, go to Config and select FastEthernet0/0 and assign the IPv4 address and Subnet Mask to Router 0 and select ON button.
+IP address – 192.168.3.3
+Subnet Mask – 255.255.255.0
+ 
+ 
+Similarly, Go to Serial 2/0 and assign IPv4 address and Subnet Mask to it and select ON button in the same Router.
+IPv4 address – 10.10.0.2 and Subnet Mask – 255.0.0.0
+ 
+ 
+•	Configuring PCs connected to Router 1.
+PC 2
+Click on PC2 and select IP configuration from Desktop and assign the IP address and Default Gateway to it
+IP address – 192.168.3.7
+Default Gateway – 192.168.3.3
+ 
+ 
+PC3
+Click on PC3 and select IP configuration from Desktop and assign the IP address and Default Gateway to it
+IP address- 192.168.3.8
+Default Gateway – 192.168.3.3
+ 
+ 
+Step-4: After Configuring and assigning IP addresses, Configure static routing for both the routers.
+Router 0 (static routing configuration)
+To do static routing one need to click on Router 0 and go to Static from Config. Now, assign the following details and click on add
+Network – 192.168.3.0
+Mask – 255.255.255.0
+Next Hop – 10.10.0.2
+ 
+ 
+Router 1 (static routing configuration)
+Similarly, to do static routing one need to click on Router 0 and go to
+Static from Config. Now, assign the following details and click on add
+Network – 192.168.2.0
+Mask – 255.255.255.0
+Next Hop – 10.10.0.1
+ 
+ 
+Now, we send messages and check the connectivity.
+ 
+
+Conclusion:
+Thus, the static routing configuration is done successfully.
+
+ 
+Experiment 3
+Aim - Configure IP routing using RIP using Cisco Packet Tracer.
+
+Step-1: Select two PT-Router, two Switches and PCs and place it on the workspace.
+ 
+Step-2: Connect PCs to Switches, and Switches to Routers using Copper-Straight Through wire through FastEthernet port. Connect Routers with Serial DCE wire.
+ 
+Step-3: Configure Routers and assign IP address to it.
+Router 0
+Click on Router 0 and select FastEthernet0/0 from Config and assign the following and click on ON
+IPv4 address :-192.168.1.1
+Subnet Mask:-255.255.255.0
+ 
+ 
+Similarly, Click on Serial 2/0 and assign the IP address and click on ON.
+IPv4 address-10.10.0.1 and Subnet Mask-255.0.0.0
+ 
+ 
+•	Router 1
+Click on FastEthernet0/0 from Config and assign the IP address and click on ON.
+IPv4 address: - 192.168.2.1
+Subnet Mask: - 255.255.255.0
+ 
+ 
+Similarly, Click on Serial2/0 and assign the IP address
+IPv4 address: -10.10.0.2 and Subnet Mask: -255.0.0.0
+ 
+ 
+Step-5: Configure PCs
+•	PC0
+Click on PC0 and select IP configuration from Desktop and configure it by assigning IP address and Default Gateway.
+IP address: -192.168.1.2
+Subnet Mask: -255.255.255.0
+Default gateway: -192.168.1.1
+ 
+ 
+•	PC 1:
+Click on PC1 and select IP configuration from Desktop and configure it by assigning IP address and Default Gateway.
+IP address: -192.168.1.3
+Subnet Mask: -255.255.255.0
+Default gateway: -192.168.1.1
+ 
+ 
+•	PC 2
+Click on PC1 and select IP configuration from Desktop and configure it by assigning IP address and Default Gateway.
+IP address: -192.168.2.2
+Subnet Mask: -255.255.255.0
+Default gateway: -192.168.2.1
+ 
+ 
+PC 3:
+Click on PC1 and select IP configuration from Desktop and configure it by assigning IP address and Default Gateway.
+IP address: -192.168.2.3
+Subnet Mask: -255.255.255.0
+Default gateway: -192.168.2.1
+ 
+ 
+Configuring Routers for RIP Routing
+•	Router 0:
+Click on Router 0 and select RIP from Config and add the IPs (192.168.1.0 and 10.0.0.0) to Network.
+ 
+ 
+Now go to settings and click on Save from NVRAM.
+ 
+ 
+Router 1:
+Click on Router 0 and select RIP from Config and add the IPs (192.168.2.0 and 10.0.0.0) to Network.
+ 
+ 
+Now go to settings and click on Save from NVRAM.
+ 
+ 
+The desired RIP Routing is done. To test the connectivity, send a message by dropping PDU to the PCs.
+ 
+
+ 
+Conclusion:
+Thus, the configuration of RIP Routing using Cisco Packet Tracer is done.
+
+ 
+Experiment 4
+Aim- Setting up a Campus Network using Packet Tracer.
+
+Step-1: Select two PT-Routers from Routers and place it on the workspace. Similarly, select PCs from End devices and PT-Switch from Switches and place them on the workspace
+Step-2: Connect Switches to PCs, Switches to Routers, and routers using Automatically Choose Connection Type wire.
+ 
+ 
+Step-3: Configure Routers and assign IP address to it.
+•	Router 0
+Click on Router 0 and select FastEthernet4/0 from Config and assign the following and click on ON.
+IPv4 address: - 192.168.1.1 and Subnet Mask: - 255.255.255.0
+Select FastEthernet5/0 from Config and assign the following and click on ON.
+IPv4 address: - 192.168.2.1 and Subnet Mask: - 255.255.255.0
+Select Serial2/0 from Config and assign the following and click on ON.
+IPv4 address: - 10.10.0.1 and Subnet Mask: - 255.0.0.0
+ 
+ 
+ 
+ 
+Step-4:
+•	Configuring PCs connected to Router 0. (Network is 192.168.1.0)
+PC0
+Click on PC0 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address- 192.168.1.2 and Default Gateway- 192.168.1.1
+PC1
+Click on PC1 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address- 192.168.1.3 and Default Gateway- 192.168.1.1
+PC2
+Click on PC2 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address- 192.168.1.4 and Default Gateway- 192.168.1.1
+PC3
+Click on PC3 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address- 192.168.1.5 and Default Gateway- 192.168.1.1
+ 
+ 
+ 
+ 
+ 
+Step-5:
+•	Configuring PCs connected to Router 0. (Network is 192.168.2.0)
+PC4
+Click on PC4 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address- 192.168.2.2 and Default Gateway- 192.168.2.1
+PC5
+Click on PC5 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address- 192.168.2.3 and Default Gateway- 192.168.2.1
+PC6
+Click on PC6 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address- 192.168.2.4 and Default Gateway- 192.168.2.1
+PC7
+Click on PC7 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address- 192.168.2.5 and Default Gateway- 192.168.2.1
+ 
+ 
+ 
+ 
+ 
+Step-6: 
+•	Configure Routers and assign IP address to it.
+Router 1
+Click on Router 1 and select FastEthernet4/0 from Config and assign the following and click on ON.
+IPv4 address: - 192.168.3.1 and Subnet Mask: - 255.255.255.0
+Select FastEthernet5/0 from Config and assign the following and click on ON.
+IPv4 address: - 192.168.4.1 and Subnet Mask: - 255.255.255.0
+Select Serial2/0 from Config and assign the following and click on ON.
+IPv4 address: - 10.10.0.2 and Subnet Mask: - 255.0.0.0
+ 
+ 
+ 
+ 
+Step-7:
+•	Configuring PCs connected to Router 1. (Network is 192.168.3.0)
+PC9
+Click on PC9 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address- 192.168.3.2 and Default Gateway- 192.168.3.1
+PC10
+Click on PC10 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address- 192.168.3.3 and Default Gateway- 192.168.3.1
+PC11
+Click on PC11 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address- 192.168.3.4 and Default Gateway- 192.168.3.1
+PC12
+Click on PC12 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address- 192.168.3.5 and Default Gateway- 192.168.3.1
+ 
+ 
+ 
+ 
+ 
+Step-8:
+•	Configuring PCs connected to Router 1. (Network is 192.168.4.0)
+PC13
+Click on PC13 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address- 192.168.4.2 and Default Gateway- 192.168.4.1
+PC14
+Click on PC14 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address- 192.168.4.3 and Default Gateway- 192.168.4.1
+PC15
+Click on PC15 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address- 192.168.4.4 and Default Gateway- 192.168.4.1
+PC16
+Click on PC16 and select IP configuration from Desktop. Assign the IP address and Default Gateway to it.
+IP address- 192.168.4.5 and Default Gateway- 192.168.4.1
+ 
+ 
+ 
+ 
+ 
+Step-9: After Configuring and assigning IP addresses, Configure static routing for both the routers.
+•	Router 0 (static routing configuration)
+To do static routing one need to click on Router 0 and go to Static from Config. Now, assign the following details and click on add
+Network – 192.168.3.0, Mask – 255.255.255.0, Next Hop – 10.10.0.2
+And
+Network – 192.168.4.0, Mask – 255.255.255.0, Next Hop – 10.10.0.2
+Step-10: Configuring Routers for RIP Routing
+•	Router 0 (RIP routing configuration):
+Click Router 0 and select RIP from Config and add the IPs (192.168.1.0, 192.168.2.0, 10.0.0.0,) to Network.
+ 
+ 
+ 
+Step-11: 
+•	Router 1 (static routing configuration)
+To do static routing one need to click on Router 1 and go to Static from Config. Now, assign the following details and click on add
+Network – 192.168.1.0, Mask – 255.255.255.0, Next Hop – 10.10.0.1
+And
+Network – 192.168.2.0, Mask – 255.255.255.0, Next Hop – 10.10.0.1
+Step-12: Configuring Routers for RIP Routing
+•	Router 1 (RIP routing configuration):
+Click Router 1 and select RIP from Config and add the IPs (192.168.3.0, 192.168.4.0, 10.0.0.0,) to Network.
+ 
+ 
+ 
+The desired Static and RIP Routing is done. To test the connectivity, send a message by dropping PDU to the PCs.
+ 
+
+Conclusion:
+Thus, the setting up a Campus Network using Packet Tracer is done successfully.
+

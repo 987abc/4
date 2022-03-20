@@ -1,0 +1,281 @@
+SIC bank answers
+
+Explain Man-in-the-middle attack.
+Explain Denial-of-service attack & Short note on Denial-of-service attack.
+Explain Virus and worm.
+Explain SQL Injection attack.
+Explain Virtual Machine.
+What is cloud computing. Mention advantages and disadvantages of cloud computing.
+Write short note on symmetric key cryptography.
+What is Encryption Explain asymmetric key cryptography.
+Explain CIA model
+Write short note on Malware.	
+Explain risk analysis.	
+Explain authentication and authorization.	
+Explain OSI model with its function.	
+Explain IDS	
+Viva Questions (Compulsory)	
+Buffer overflow attack	
+Brute force attack	
+
+
+Explain Man-in-the-middle attack.
+A man-in-the-middle attack is a type of cyberattack where a malicious actor inserts him/herself into a conversation between two parties, impersonates both parties and gains access to information that the two parties were trying to send to each other. A man-in-the-middle attack allows a malicious actor to intercept, send and receive data meant for someone else, or not meant to be sent at all, without either outside party knowing until it is too late. Man-in-the-middle attacks can be abbreviated in many ways, including MITM, MitM, MiM or MIM. The attacker inserted him/herself in between the flow of traffic between client and server. Now that the attacker has intruded into the communication between the two endpoints, he/she can inject false information and intercept the data transferred between them. The hacker is impersonating both sides of the conversation to gain access to information. This attack can happen in a conversation with a client and server as well as person-to-person conversations. Cybercriminals can use MITM attacks to gain control of devices in a variety of ways.
+•	Types of man-in-the-middle attacks:
+1.	IP spoofing
+Every device capable of connecting to the internet has an internet protocol (IP) address, which is similar to the street address for your home. By spoofing an IP address, an attacker can trick you into thinking you’re interacting with a website or someone you’re not, perhaps giving the attacker access to information you’d otherwise not share.
+2.	DNS spoofing
+Domain Name Server, or DNS, spoofing is a technique that forces a user to a fake website rather than the real one the user intends to visit. If you are a victim of DNS spoofing, you may think you’re visiting a safe, trusted website while you’re actually interacting with a fraudster. The perpetrator’s goal is to divert traffic from the real site or capture user login credentials.
+3.	HTTPS spoofing
+When doing business on the internet, seeing “HTTPS” in the URL, rather than “HTTP” is a sign that the website is secure and can be trusted. In fact, the “S” stands for “secure.” An attacker can fool your browser into believing it’s visiting a trusted website when it’s not. By redirecting your browser to an unsecure website, the attacker can monitor your interactions with that website and possibly steal personal information you’re sharing.
+4.	SSL hijacking
+When your device connects to an unsecure server — indicated by “HTTP” — the server can often automatically redirect you to the secure version of the server, indicated by “HTTPS.” A connection to a secure server means standard security protocols are in place, protecting the data you share with that server. SSL stands for Secure Sockets Layer, a protocol that establishes encrypted links between your browser and the web server. In an SSL hijacking, the attacker uses another computer and secure server and intercepts all the information passing between the server and the user’s computer.
+5.	Email hijacking
+Cybercriminals sometimes target email accounts of banks and other financial institutions. Once they gain access, they can monitor transactions between the institution and its customers. The attackers can then spoof the bank’s email address and send their own instructions to customers. This convinces the customer to follow the attackers’ instructions rather than the bank’s. As a result, an unwitting customer may end up putting money in the attackers’ hands.
+6.	Wi-Fi eavesdropping
+Cybercriminals can set up Wi-Fi connections with very legitimate sounding names, similar to a nearby business. Once a user connects to the fraudster’s Wi-Fi, the attacker will be able to monitor the user’s online activity and be able to intercept login credentials, payment card information, and more. This is just one of several risks associated with using public Wi-Fi.
+
+•	Preventions for protecting against a man-in-the-middle attack
+1.	Make sure “HTTPS” — with the S — is always in the URL bar of the websites you visit.
+2.	Be wary of potential phishing emails from attackers asking you to update your password or any other login credentials. Instead of clicking on the link provided in the email, manually type the website address into your browser.
+3.	Never connect to public Wi-Fi routers directly, if possible. A VPN encrypts your internet connection on public hotspots to protect the private data you send and receive while using public Wi-Fi, like passwords or credit card information.
+4.	Since MITB attacks primarily use malware for execution, you should install a comprehensive internet security solution. Always keep the security software up to date.
+5.	Be sure that your home Wi-Fi network is secure. Update all of the default usernames and passwords on your home router and all connected devices to strong, unique passwords.
+
+Explain Denial-of-service attack & Short note on Denial-of-service attack.
+A denial-of-service (DoS) attack is a type of cyber-attack in which a malicious actor aims to render a computer or other device unavailable to its intended users by interrupting the device's normal functioning. DoS attacks typically function by overwhelming or flooding a targeted machine with requests until normal traffic is unable to be processed, resulting in denial-of-service to addition users. Denial-of-service attacks deluge servers with more messages than they can handle. A DoS attack is characterized by using a single computer to launch the attack. Denial of service (DoS) attacks occur when the system receives too much traffic to buffer the server. Mostly, DoS attackers target web servers of large organizations such as banking sectors, media companies, and government organizations. To recover the lost data, DoS attackers charge a great deal of time and money to handle the data.
+
+•	Prevention of the system from Dos attack?
+1.	Defence - Select a service provider that has solid protection against network-based attacks. Implement firewalls and network filtering at the network perimeter of the cloud infrastructure (primarily the Internet access point) to block attacks and hostile networks using a network blacklist. In addition, use redundant providers because an attack against one provider’s environment may not affect another. 
+2.	Detection - Select a service provider that performs and monitors intrusion detection on a 24×7 basis and sign up for any appropriate additional services relating to this capability.
+3.	Deterrence - Work with the service provider’s legal department to ensure that attackers are found and prosecuted.
+4.	Residual risk - As most DoS attacks originate from other countries and can be hard to detect and track, there is little that you can do about the ones that get through an environment’s defenses.
+
+Explain Virus and worm.
+Virus
+Computer virus is a self-replicating program that uses other host files or code to replicate. Most viruses infect files so that every time the host file is executed, the virus is executed too. A virus infection is simply another way of saying the virus made a copy of itself (replicated) and placed its code in the host in such a way that it will always be executed when the host is executed. A Virus is a malicious executable code attached to another executable file which can be harmless or can modify or delete data. Viruses can infect program files, boot sectors, hard drive partition tables, data files, memory, macro routines, and scripting files. At the very least, a “harmless” virus takes up CPU cycles and storage space.
+Types of Viruses
+•	Non-resident virus
+A non-resident virus is a computer virus that does not store or execute itself from computer memory. Executable viruses are an example of a non-resident virus. A non-resident virus may, for example, look for and infect five EXE files on the hard disk and then terminate until the next time an infected file is executed.
+•	Resident virus
+A Resident virus installs itself somewhere in the random-access memory (RAM) in the computer. It can interfere with normal system operation which can lead to the corruption of files and programs. Memory-resident viruses insert themselves as part of the operating system or application and can manipulate any file that is executed, copied, moved, or listed.
+•	Stealth virus
+A stealth virus is a type of virus malware that contains sophisticated means of avoiding detection by antivirus software. After it manages to get into the machine a stealth virus hides itself by continually renaming and moving itself around the disc. When taking control of the PC and performing tasks, when antivirus programs detect it, a stealth virus sees that coming and will rename itself and copy itself to a different drive or area on the disc, ahead of the antivirus software. Once moved and renamed a stealth virus will usually replace the detected ‘infected’ file with a clean file that does not trigger anti-virus detection.
+•	Parasitic virus
+A Parasitic Virus (also referred to as a file virus) is a type of virus that spreads by attaching itself to another program. When a program that is infected with a parasitic virus runs, the virus code runs as well, and the computer’s operating system gives the virus code the same rights as the program. This allows the virus to make changes on the computer, install itself within the computer’s memory, or copy itself.
+•	Overwriting virus
+If the virus overwrites the host code with its own code, effectively destroying much of the original contents, it is called an overwriting virus.
+•	Prepending & appending viruses
+Viruses that copy themselves to the beginning of the file are called prepending viruses, and viruses placing themselves at the end of a file are called appending viruses.
+•	Mid-infecting viruses
+Viruses appearing in the middle of a host file are labeled mid-infecting viruses.
+Worms
+A Worm is a form of malware that replicates itself and can spread to different computers via Network. A computer worm uses its own coding to replicate, although it may rely on the existence of other related code to do so. The key to a worm is that it does not directly modify other host code to replicate. A worm may travel the Internet trying one or more exploits to compromise a computer, and if successful, it then writes itself to the computer and begins replicating again.
+E-mail worms are a curious intersection of social engineering and automation. They appear in people’s inboxes as messages and file attachments from friends, strangers, and companies. They pose as games, official patches from Microsoft, or unofficial applications found in the digital marketplace. Internet e-mail worms are very popular with attackers because they can be very hard to track. After the malicious authors create the worm, they can use one of the many anonymous e-mail services to launch it. The worm first modifies the PC in such a way that it makes sure it is always loaded into memory when the machine starts. E-mail worms can use a pre-existing SMTP server or use their own SMTP engine. Since The main objective of worms is to eat the system resources, most infected users notice severe slowness in their PC immediately following the worm’s execution. As worms does not need human action to replicate, they move on and infect dozens of new hosts in the network automatically.
+
+Explain SQL Injection attack.
+SQL injection is a type of content attack. SQL (Structured Query Language) is standardized by the American National Standards Institute (ANSI) and serves as a common language for communicating with databases. SQL injection is a technique to inject crafted SQL into user input fields that are part of web forms. It is mostly used to bypass custom logins to web sites. However, SQL injection can also be used to log in to or even to take over a web site. For example, in SQL injection, an attacker connects to a web site with a SQL server backend database. The web site contains a customer input form asking for some sort of innocent information, such as pant size. But instead of entering a numeric value, as the web site is expecting, the attacker enters a malformed command that is misinterpreted by the server and that leads to the remote execution of a privileged command. Simple Login Bypass is the most basic form of SQL injection in which bypassing a login to a web site is done. The attacker can use built-in stored procedures (functions supplied by the database to perform administrative and maintenance tasks) to write or read files, or to invoke programs in the database’s computer.
+Solutions for SQL Injection:
+Developers and administrators can take a number of different steps in order to solve the SQL injection problem.
+1.	These are some solutions for developers:
+•	Filter all input fields for apostrophes (') to prevent unauthorized logins.
+•	Filter all input fields for SQL commands like insert, select, union, delete, and exec to prevent server manipulation. (Make sure you do this after filtering for the apostrophes.)
+•	Limit input field length (which will limit attackers’ options), and validate the input length with server-side scripts.
+•	Use the option to filter “escape characters” (characters that can be used to inject SQL code, such as apostrophes) if the database offers that function.
+•	Place the database on a different computer than the web server. If the database is hacked, it’ll be harder for the attacker to reach the web server.
+•	Limit the user privileges of the server-side script. A common practice is to use the administrative user when logging in from the server-side script to the database, but this can allow an attacker to run database tasks (such as modifying tables or running stored procedures) that require the administrative user. Assign a user with minimal privileges for this purpose.
+•	Place the database in a separate container (behind a firewall), separated from the web container and application server.
+2.	These are some solutions for developers:
+•	Make sure the web server returns a custom error page. This way, the server won’t return the SQL error, which will make it harder for the attacker to gain data about the SQL query. (A custom error page should not contain any information that might aid the attacker, unlike the regular error page, which will return part of the SQL statement.)
+•	Deploy only web applications that separate the database from the web server.
+•	Hire an outside agency to perform penetration tests on the web server and to look for SQL injection exploits.
+•	Use a purpose-built automated scanning device to discover SQL injection exploits that result from programmers’ mistakes.
+•	Deploy security solutions that validate user input and that filter SQL injection attempts.
+
+Explain Virtual Machine.
+Virtual machine is a virtual representation, or emulation, of a physical computer. They are often referred to as a guest while the physical machine they run on is referred to as the host. Virtualization makes it possible to create multiple virtual machines, each with their own operating system (OS) and applications, on a single physical machine. A VM cannot interact directly with a physical computer. Instead, it needs a lightweight software layer called a hypervisor to coordinate between it and the underlying physical hardware. The hypervisor allocates physical computing resources such as processors, memory, and storage to each VM. It keeps each VM separate from others so they don’t interfere with each other.
+Protecting the Hypervisor 
+The hypervisor is responsible for managing all guest OS installations on a VM server, and the service console provides a centralized location for managing all the servers in a virtual environment. As a result, a compromise of the hypervisor or service console has the potential to inflict significant damage as this would effectively allow all security controls on the virtual servers to be bypassed. Hypervisor and service console servers need to be properly patched and secured, as well as logically separated through the use of isolated networks with strict access controls. Firewalls should be used to block access attempts from the virtual machines to the management consoles. This setup prevents attacks and malware on VMs from reaching the service consoles and affecting other VMs. A password associated with an administrative account for the hypervisor has the potential to be shared, or written down, despite your policies, threats, and warnings. The password may also be intercepted in various ways, such as by keyloggers or network sniffers. Password secrecy can never be guaranteed. Multifactor authentication using tokens (portable digital one-time password generators), biometrics, and smart cards is a better choice for hypervisor access. Limit physical access to the hardware as well. Despite any technical defenses that are in place, an attacker with physical access to the machine hardware is going to have an easier time getting into the system. Consequently, limiting physical access to systems makes an attacker’s job harder.
+Protecting the Guest OS
+Typically, the hypervisor manages access to hardware resources so that each guest OS is able to access only its own allocated resources, such as CPU, memory, and storage, but not those resources allocated to other guest OSs. This characteristic is known as partitioning and is designed to protect each guest OS from other guest OS instances, so attacks and malware are unable to “cross over.”
+Protecting Virtual Storage
+Guest OS systems can utilize virtual or physical network attached storage (NAS) and storage area networks (SAN) allocated by the hypervisor to meet data storage requirements, as if these storage devices were directly attached to the system. This aspect of security for virtualization is focused on controlling access to the files on the virtual hard drive and the overall configuration of the storage network.
+What is cloud computing. Mention advantages and disadvantages of cloud computing.
+The term cloud refers to a network or the internet. It is a technology that uses remote servers on the internet to store, manage, and access data online rather than local drives. The data can be anything such as files, images, documents, audio, video, and more. There are many operations that we can do using cloud computing like Developing new applications and services, Storage, back up, and recovery of data, Hosting blogs and websites, Delivery of software on demand, Analysis of data, Streaming videos and audios etc.
+Small as well as large IT companies, follow the traditional methods to provide the IT infrastructure. That means for any IT company, we need a Server Room that is the basic need of IT companies. In that server room, there should be a database server, mail server, networking, firewalls, routers, modem, switches, QPS (Query Per Second means how much queries or load will be handled by the server), configurable system, high net speed, and the maintenance engineers. To establish such IT infrastructure, we need to spend lots of money. To overcome all these problems and to reduce the IT infrastructure cost, Cloud Computing comes into existence.
+Advantages of Cloud Computing
+1.	Back-up and restore data
+Once the data is stored in the cloud, it is easier to get back-up and restore that data using the cloud.
+2.	Improved collaboration
+Cloud applications improve collaboration by allowing groups of people to quickly and easily share information in the cloud via shared storage.
+3.	Excellent accessibility
+Cloud allows us to quickly and easily access store information anywhere, anytime in the whole world, using an internet connection. An internet cloud infrastructure increases organization productivity and efficiency by ensuring that our data is always accessible.
+4.	Low maintenance cost
+Cloud computing reduces both hardware and software maintenance costs for organizations.
+5.	Mobility
+Cloud computing allows us to easily access all cloud data via mobile.
+6.	Pay-per-use model
+Cloud computing offers Application Programming Interfaces (APIs) to the users for accessing services on the cloud and pays the charges as per the usage of service.
+7.	Unlimited storage capacity
+Cloud offers us a huge amount of storing capacity for storing our important data such as documents, images, audio, video, etc. in one place.
+8.	Data security
+Data security is one of the biggest advantages of cloud computing. Cloud offers many advanced features related to security and ensures that data is securely stored and handled.
+Disadvantages of Cloud Computing
+1.	Internet Connectivity
+As you know, in cloud computing, every data (image, audio, video, etc.) is stored on the cloud, and we access these data through the cloud by using the internet connection. If you do not have good internet connectivity, you cannot access these data. However, we have no any other way to access data from the cloud.
+2.	Vendor lock-in
+Vendor lock-in is the biggest disadvantage of cloud computing. Organizations may face problems when transferring their services from one vendor to another. As different vendors provide different platforms, that can cause difficulty moving from one cloud to another.
+3.	Limited Control
+As we know, cloud infrastructure is completely owned, managed, and monitored by the service provider, so the cloud users have less control over the function and execution of services within a cloud infrastructure.
+ 
+4.	Security
+Although cloud service providers implement the best security standards to store important information. But, before adopting cloud technology, you should be aware that you will be sending all your organization's sensitive information to a third party, i.e., a cloud computing service provider. While sending the data on the cloud, there may be a chance that your organization's information is hacked by Hackers.
+Write short note on symmetric key cryptography.
+Symmetric encryption is a type of encryption where only one key (a secret key) is used to both encrypt and decrypt electronic information. The entities communicating via symmetric encryption must exchange the key so that it can be used in the decryption process. Some examples of symmetric encryption algorithms include AES (Advanced Encryption Standard), DES (Data Encryption Standard), IDEA (International Data Encryption Algorithm), Blowfish (Drop-in replacement for DES or IDEA), RC4 (Rivest Cipher 4), RC5 (Rivest Cipher 5), RC6 (Rivest Cipher 6) etc.
+The message exchange using symmetric key cryptography involves the following steps
+•	Before starting the communication, sender and receiver shares the secret key.
+•	This secret key is shared through some external means.
+•	At sender side, sender encrypts the message using his copy of the key.
+•	The cipher text is then sent to the receiver over the communication channel.
+•	At receiver side, receiver decrypts the cipher text using his copy of the key.
+•	After decryption, the message converts back into readable format.
+For example, suppose we take a plaintext message, "hello," and encrypt it with a key; let's say the key is "2jd8932kd8.". Encrypted with this key, our simple "hello" now reads "X5xJCSycg14=", which seems like random garbage data. However, by decrypting it with that same key, we get "hello" back. 
+Sender side
+•	Plaintext + key = ciphertext:
+•	hello + 2jd8932kd8 = X5xJCSycg14=
+Receiver side
+•	Ciphertext + key = plaintext:
+•	X5xJCSycg14= + 2jd8932kd8 = hello
+
+What is Encryption Explain asymmetric key cryptography.
+Encryption
+In cryptography, encryption is the process of encoding information. This process converts the original representation of the information, known as plaintext, into an alternative form known as ciphertext. Ideally, only authorized parties can decipher a ciphertext back to plaintext and access the original information.
+Asymmetric key cryptography
+Also known as Public Key Cryptography. Public key encryption, or public key cryptography, is a method of encrypting data with two different keys and making one of the keys, the public key, available for anyone to use. The other key is known as the private key. Data encrypted with the public key can only be decrypted with the private key, and data encrypted with the private key can only be decrypted with the public key. Public keys are exchanged and private keys are kept secret. Even if a public key becomes, well, public, it does not compromise the system. Public key encryption is also known as asymmetric encryption. The famous asymmetric encryption algorithms are RSA Algorithm, Diffie-Hellman Key Exchange.
+
+The message exchange using Asymmetric key cryptography involves the following steps
+1) Before starting the communication User_1 and User_2 shares their public keys with each other, and keeps their private keys private.
+2) User_1 encrypts the message with User_2’s public key.
+3) The encrypted message is then sent to the User_2 over the communication channel.
+4) User_2 decrypts the message with User_2’s private key.
+5) After decryption, the message converts back into readable format.
+The advantages of public key cryptography
+•	It is more robust.
+•	It is less susceptible to third-party security breach attempts.
+The disadvantages of public key cryptography
+•	It involves high computational requirements.
+•	It is slower than symmetric key cryptography.
+Number of Keys Required to use public key cryptography
+•	Each individual requires two keys - one public key and one private key.
+•	For n individuals to communicate, number of keys required = 2 x n = 2n keys.
+
+Explain CIA model
+C-I-A triad: confidentiality, integrity, availability. The CIA Triad of confidentiality, integrity and availability is considered the core underpinning of information security. Every security control and every security vulnerability can be viewed in light of one or more of these key concepts. For a security program to be considered comprehensive and complete, it must adequately address the entire CIA Triad. A person or system can do three basic things with a data item: view it, modify it, or use it. Thus, viewing (confidentiality), modifying (integrity), and using (availability) are the basic modes of access that computer security seeks to preserve.
+If a thief steals your computer, you no longer have access, so you have lost availability. Furthermore, if the thief looks at the pictures or documents you have stored, your confidentiality is compromised. And if the thief changes the content of your music files but then gives them back with your computer, the integrity of your data has been harmed. You can envision many scenarios based around these three properties. Computer security seeks to prevent unauthorized viewing (confidentiality) or modification (integrity) of data while preserving access (availability).
+Confidentiality
+Only authorized people or systems can access protected data. Some things obviously need confidentiality protection. For example, students’ grades, financial transactions, medical records, and tax returns are sensitive. Confidentiality refers to the restriction of access to data only to those who are authorized to use it. Generally speaking, this means a single set of data is accessible to one or more authorized people or systems, and nobody else can see it. Confidentiality is distinguishable from privacy in the sense that “confidential” implies access to one set of data by many sources, while “private” usually means the data is accessible only to a single source. As an example, a password is considered private because only one person should know it, while a patient record is considered confidential because multiple members of the patient’s medical staff are allowed to see it.
+Integrity
+Integrity, which is particularly relevant to data, refers to the assurance that the data has not been altered in an unauthorized way. Integrity controls are meant to ensure that a set of data can’t be modified (or deleted entirely) by an unauthorized party. Part of the goal of integrity controls is to block the ability of unauthorized people to make changes to data, and another part is to provide a means of restoring data back to a known good state (as in backups).
+Availability
+Unlike confidentiality and integrity, which make the most sense in the context of the data contained within computer systems, availability refers to the “uptime” of computer-based services, the assurance that the service will be available when it’s needed. Service availability is usually protected by implementing high-availability (or continuous-service) controls on computers, networks, and storage. High-availability (HA) pairs or clusters of computers, redundant network links, and RAID disks are examples of mechanisms to protect availability.
+
+Write short note on Malware.
+Malware is a catch-all term for any type of malicious software designed to harm or exploit any programmable device, service or network. There are three generally recognized variants of malicious mobile code: viruses, worms, and Trojans. In addition, many malware programs have components that act like two or more of these types, which are called hybrid threats or mixed threats. Unlike a human counterpart, malware doesn’t need to rest or eat. It just goes on every second of every day churning out replication cycles.
+The lifecycle of malicious mobile code looks like this:
+1.	Find
+2.	Exploit
+3.	Infect
+4.	Repeat
+Different types of Malware
+(Viruses and worms are described earlier. Write the same)
+Ransomware
+Ransomware is malicious software that infects your computer and displays messages demanding a fee to be paid in order for your system to work again. This class of malware is a criminal moneymaking scheme that can be installed through deceptive links in an email message, instant message or website. It has the ability to lock a computer screen or encrypt important, predetermined files with a password. Example: Wannacry
+Spyware
+Spyware is a type of malicious software or malware that is installed on a computing device without the end user's knowledge. It invades the device, steals sensitive information and internet usage data, and relays it to advertisers, data firms or external users. Any software can be classified as spyware if it is downloaded without the user's authorization. Once the spyware is installed, it monitors internet activity, tracks login credentials and spies on sensitive information. The primary goal of spyware is usually to obtain credit card numbers, banking information and passwords.
+Trojans
+Trojan horse programs, or Trojans, work by posing as legitimate programs that are activated by an unsuspecting user. After execution, the Trojan may attempt to continue to pose as the other legitimate program (such as a screensaver) while doing its malicious actions in the background. If the Trojan simply starts its malicious actions and doesn’t pretend to be a legitimate program, it’s called a direct-action Trojan. 
+ 
+Remote Access Trojan (RAT)
+A powerful type of Trojan program called a remote access Trojan (RAT) is very popular in today’s attacker circles. Once installed, a RAT becomes a back door into the compromised system and allows the remote attackers to do virtually anything they want to the compromised PC. RATs can delete and damage files, download data, manipulate the PC’s input and output devices, and record keystroke’s screenshots. Keystroke and screen-capturing allows the attacker to track what the user is doing, including entry of passwords and other sensitive information. RATs have even been known to record video and audio from the host computer’s web camera and microphone.
+
+Explain risk analysis.
+A risk analysis needs to be a part of every security effort. It should analyze and categorize the assets that need to be protected and the risks that need to be avoided, and it should facilitate the identification and prioritization of protective elements. It can also provide a means to measure the effectiveness of the overall security architecture, by tracking those risks and their associated mitigation over time to observe trends.
+Steps in risk analysis process
+1. Conduct a risk assessment survey
+•	This first step, getting input from management and department heads, is critical to the risk assessment process. The risk assessment survey is a way to begin documenting specific risks or threats within each department.
+2. Identify the risks
+•	The reason for performing risk assessment is to evaluate an IT system or other aspect of the organization and then ask: What are the risks to the software, hardware, data and IT employees? What are the possible adverse events that could occur, such as human error, fire, flooding or earthquakes? What is the potential that the integrity of the system will be compromised or that it won't be available?
+3. Analyze the risks
+•	Once the risks are identified, the risk analysis process should determine the likelihood that each risk will occur, as well as the consequences linked to each risk and how they might affect the objectives of a project.
+4. Develop a risk management plan
+•	Based on an analysis of which assets are valuable and which threats will probably affect those assets negatively, the risk analysis should produce control recommendations that can be used to mitigate, transfer, accept or avoid the risk.
+5. Implement the risk management plan
+•	The goal of risk assessment is to implement measures to remove or reduce the risks. Starting with the highest-priority risk, resolve or at least mitigate each risk so it's no longer a threat.
+ 
+6. Monitor the risks:
+•	The ongoing process of identifying, treating and managing risks should be an important part of any risk analysis process.
+
+Explain authentication and authorization.
+One of the most common ways to control access to computer systems is to identify who is at the keyboard (and prove that identity), and then decide what they are allowed to do. These twin controls, authentication and authorization, respectively, ensure that authorized users get access to the appropriate computing resources, while blocking access to unauthorized users. Authentication is the means of verifying who a person (or process) is, while authorization determines what they’re allowed to do. This should always be done in accordance with the principle of least privilege (giving each person only the amount of access they require to be effective in their job function, and no more).
+Authentication is the process by which people prove they are who they say they are. It’s composed of two parts: a public statement of identity (usually in the form of a username) combined with a private response to a challenge (such as a password). The secret response to the authentication challenge can be based on one or more factors, something you know (a secret word, number, or passphrase for example), something you have (such as a smartcard, ID tag, or code generator), or something you are (like a biometric factor like a fingerprint or retinal print). 
+Authorization is the counterpart to authentication. Authentication establishes who the user is; authorization specifies what that user can do. Authorization even specifies whether the user can access the system at all.
+A password by itself, which is a means of identifying yourself through something only you should know (and today’s most common form of challenge response), is an example of single-factor authentication. This is not considered to be a strong authentication method, because a password can be intercepted or stolen in a variety of ways. Other single-factor authentication methods are better than passwords. Tokens and smart cards are better than passwords because they must be in the physical possession of the user. Biometrics, which use a sensor or scanner to identify unique features of individual body parts, are better than passwords because they can’t be shared, the user must be present to log in. Multi factor authentication refers to using two or more methods of checking identity. These methods include (listed in increasing order of strength):
+• Something you know (a password or PIN code)
+• Something you have (such as a card or token)
+• Something you are (a unique physical characteristic).
+
+Explain OSI model with its function.
+The Open Systems Interconnection (OSI) model describes seven layers that computer systems use to communicate over a network. It was the first standard model for network communications, adopted by all major computer and telecommunication companies in the early 1980s. The OSI model uses a seven-layer structure to represent the transmission of data from an application residing on one computer to an application residing on another computer.
+7.	Application Layer
+Application Layer is a human-computer Interaction layer, where applications can access the network services. The application layer is used by end-user software such as web browsers and email clients. It provides protocols that allow software to send and receive information and present meaningful data to users. A few examples of application layer protocols are the Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), Post Office Protocol (POP), Simple Mail Transfer Protocol (SMTP), and Domain Name System (DNS).
+6.	Presentation Layer
+Presentation Layer ensures that data is in a usable format and it is where data encryption occurs. The presentation layer prepares data for the application layer. It defines how two devices should encode, encrypt, and compress data so it is received correctly on the other end. The presentation layer takes any data transmitted by the application layer and prepares it for transmission over the session layer.
+5.	Session Layer
+Session Layer maintains connections and is responsible for controlling ports and sessions. The session layer creates communication channels, called sessions, between devices. It is responsible for opening sessions, ensuring they remain open and functional while data is being transferred, and closing them when communication ends. The session layer can also set checkpoints during a data transfer, if the session is interrupted, devices can resume data transfer from the last checkpoint.
+4.	Transport Layer
+Transport Layer transmits data using transmission protocols including TCP and UDP. The transport layer takes data transferred in the session layer and breaks it into “segments” on the transmitting end. It is responsible for reassembling the segments on the receiving end, turning it back into data that can be used by the session layer. The transport layer carries out flow control, sending data at a rate that matches the connection speed of the receiving device, and error control, checking if data was received correctly and if not, requesting it again.
+3.	Network Layer
+Network Layer decides which physical path the data will take. The network layer has two main functions. One is breaking up segments into network packets, and reassembling the packets on the receiving end. The other is routing packets by discovering the best path across a physical network. The network layer uses network addresses (typically Internet Protocol addresses) to route packets to a destination node.
+2.	Data Link Layer
+Data Link Layer defines the format of data on the network. The data link layer establishes and terminates a connection between two physically connected nodes on a network. It breaks up packets into frames and sends them from source to destination. This layer is composed of two parts, Logical Link Control (LLC), which identifies network protocols, performs error checking and synchronizes frames and Media Access Control (MAC) which uses MAC addresses to connect devices and define permissions to transmit and receive data.
+1.	Physical Layer
+Physical Layer transmits raw bit stream over the physical medium. The physical layer is responsible for the physical cable or wireless connection between network nodes. It defines the connector, the electrical cable or wireless technology connecting the devices, and is responsible for transmission of the raw data, which is simply a series of 0s and 1s, while taking care of bit rate control.
+
+Explain IDS
+Intrusion Detection System (IDS) is a system that monitors network traffic for suspicious activity and issues alerts when such activity is discovered. It is a software application that scans a network or a system for harmful activity or policy breaching. Security administrators are constantly checking system and security log files for something suspicious. An antivirus scanner is an ID system when it checks files and disks for known malware. When the IDS notices a possible malicious threat, called an event, it logs the transaction and takes appropriate action. The action may simply be to continue to log, send an alert, redirect the attack, or prevent the maliciousness. If the threat is high risk, the IDS will alert the appropriate people. An IDS supports the defense-in-depth security principle and can be used to detect a wide range of rogue events, such as Password cracking, Protocol attacks, Buffer overflows, Impersonation attempts, Software vulnerability exploits, Malicious code, like viruses, worms, and Trojans, illegal data manipulation, Unauthorized file access, Denial of service (DoS) attacks etc.
+Intrusion prevention is the process of performing intrusion detection and then stopping the detected incidents. These security measures are available as intrusion detection systems (IDS) and intrusion prevention systems (IPS), which become part of your network to detect and stop potential incidents.
+Classification of Intrusion Detection Systems
+Intrusion detection systems are designed to be deployed in different environments. And like many cybersecurity solutions, an IDS can either be host-based or network based.
+•	Host-Based IDS (HIDS):
+A host-based IDS is deployed on a particular endpoint and designed to protect it against internal and external threats. Such an IDS may have the ability to monitor network traffic to and from the machine, observe running processes, and inspect the system’s logs. A host-based IDS’s visibility is limited to its host machine, decreasing the available context for decision-making, but has deep visibility into the host computer’s internals.
+•	Network-Based IDS (NIDS):
+A network-based IDS solution is designed to monitor an entire protected network. It has visibility into all traffic flowing through the network and makes determinations based upon packet metadata and contents. This wider viewpoint provides more context and the ability to detect widespread threats; however, these systems lack visibility into the internals of the endpoints that they protect.
+Detection Method of IDS Deployment
+Beyond their deployment location, IDS solutions also differ in how they identify potential intrusions:
+•	Signature Detection
+Signature-based IDS solutions use fingerprints of known threats to identify them. Once malware or other malicious content has been identified, a signature is generated and added to the list used by the IDS solution to test incoming content. This enables an IDS to achieve a high threat detection rate with no false positives because all alerts are generated based upon detection of known malicious content. However, a signature-based IDS is limited to detecting known threats and is blind to zero-day vulnerabilities.
+•	Anomaly Detection
+Anomaly-based IDS solutions build a model of the “normal” behaviour of the protected system. All future behaviour is compared to this model, and any anomalies are labeled as potential threats and generate alerts. While this approach can detect novel or zero-day threats, the difficulty of building an accurate model of “normal” behaviour means that these systems must balance false positives (incorrect alerts) with false negatives (missed detections).
+
+Viva Questions (Compulsory)
+
+Buffer overflow attack
+What is Buffer Overflow Attack?
+The classic buffer overflow vulnerability is the traditional bane of security. While primarily a C and C++ issue, buffer overflows do affect other languages that are compiled (into native machine instructions). A buffer overflow attack is surprisingly simple: the program code allocates n bytes for a buffer, and the attacker’s code copies more than n bytes to that buffer. It’s as simple as that. Attackers often use a buffer overflow exploit to change the flow of execution in the application from the normal flow to a flow determined by the attacker. A buffer overflow exploit could allow an attacker to add a user account to the administrative group, but only if the process that contains the buffer overflow is running with elevated privileges, such as SYSTEM or Administrator in Windows, or root in Unix. For that reason, you should not run code with elevated privileges unless you absolutely must do so. Buffer overflow attack simply means copying too much information to a memory location, leading to denial of service or elevation of privilege attacks. A buffer overflow, allows malicious code to be injected into applications. It works by corrupting the application stack—a place in memory where the application code is stored—and replacing part of the code with different code to do what the attacker wants, such as running Trojans or remote control applications. Most of Apache’s exploits are buffer overflows.
+Why Buffer Overflow occurs?
+Buffer overflows occur when a program expecting input does not do input validation. For example, suppose the program was expecting the user to type in a five-digit ZIP code, but instead the attacker replies with 400 characters. The result makes the host program error out and quit, throwing excess data into the CPU. If the buffer overflow attacker can reliably predict where in memory his buffer overflow data is going, the buffer overflow can be used to completely compromise the host. Otherwise, it just creates a DoS condition. Excessive repetition of identical characters in an HTTP response might be indicative of a buffer overflow attempt. Buffer overflows can be used to gain control over the web server. The attacker sends a large input that contains assembly code, and if the script is vulnerable, this string is executed and usually runs a Trojan that will allow the attacker to take over the computer.
+How to stop Buffer Overflow?
+Stopping buffer-overflow attacks requires input validation. Buffer-overflow attacks can only be defeated by programmers using secure coding practices. If your AD (Anomaly-Detection Model) system defines a buffer overflow as any traffic with over a thousand repeating characters, it will catch any buffer overflow, known or unknown, that exceeds that definition. It doesn’t need to know the character used or how the buffer overflow works. If your AD system knows your network usually experiences ten FTP sessions in a day, and suddenly it experiences a thousand, it will likely catch the suspicious activity. Buffer overflow comes under Web server attacks which are made possible by vulnerabilities that are commonly found in web server software and configurations.
+
+Brute force attack
+What is Brute force attack? 
+Brute Force Attack comes under Password Cracking in which Password crackers either try to guess passwords or they use brute-force tools. Brute-force tools attempt to guess a password by trying all the character combinations listed in an accompanying dictionary. The dictionary may start off blindly guessing passwords using a simple incremental algorithm (for example, trying aaaaa, aaaab, aaaac, and so on) or it may use passwords known to be common on the host (such as password, blank, michael, and so on). Brute-force attack is a method used for breaking encryption systems. Brute-force methodology entails trying all the possible keys until the proper one is found. If the attacked system locks out accounts after a certain number of invalid login attempts, some password attackers will gain enough access to copy down the password database, and then brute-force it offline. Brute-force attacks Each letter, number, and possible character combination is tried, often character by character, in an attempt to deduce the password. Brute Force Attack simply means checking every possible character combination. When configured to brute-force all possible combinations, the program will take longer to crack even simple passwords than when it is configured to try simple combinations, such as uppercase letters, lowercase letters, and numbers. If attacking a large database, the attacker might not request all combinations; rather, they might first try the simpler ones. If your passwords are always very complex, the casual attacker may pass you by, and you will still slow down the determined attacker.
+How to prevent the system from Brute Force Attack?
+•	Account lockout - A method of disabling an account after some number of incorrect tries at logging on is unsuccessful. This control is usually set in order to automatically disable accounts that are being brute forced.
+•	Account lockout - A method of disabling an account after some number of incorrect tries at logging on is unsuccessful. This control is usually set in order to automatically disable accounts that are being brute forced.
+•	A good mail server always waits a few seconds after a failed login in order to slow down	brute-force attack attempts.
+•	Smart cards are also extremely resistant to brute-force and dictionary attacks, since a small number of incorrect PIN entries will render the smart card useless for authentication.
+Brute-Forcing Logins
+An attacker can try to brute-force the login (either a standard web login or a custom ASP) using a dictionary. There are a number of ways to combat brute-force attacks:
+•	Limit the number of connections per second per IP address (define this either at the firewall level or at the server-side script level)
+•	Force users to choose strong passwords that contain upper- and lowercase letters and digits
